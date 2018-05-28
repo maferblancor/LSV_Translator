@@ -1,0 +1,63 @@
+
+Input:Yo soy Aurora.
+
+Output:
+       tag        lemma    word expresion gender number      time
+0  PP1CSN0           YO      Yo                                  
+1  NP00000  A-U-R-O-R-A  Aurora                          Presente
+
+Input:¡Hola! ¿Cuál es tu nombre? Mi nombre es José.
+
+Output:
+       tag    lemma    word      expresion gender number      time
+0        I     HOLA    Hola    EXCLAMACION                        
+1  PT0CS00     CUÁL    Cuál  INTERROGACION                        
+2   DP2CSS       TU      tu                               Presente
+3  NCMS000   NOMBRE  nombre                                       
+4   DP1CSS       MI      Mi                                       
+5  NCMS000   NOMBRE  nombre                                       
+6  NP00000  J-O-S-É    José                               Presente
+
+Input:Yo tenía un perro que se llamaba Pancho.
+
+Output:
+       tag        lemma     word expresion gender number    time
+0  PP1CSN0           YO       Yo                                
+1  VMII3S0        TENER    tenía                          Pasado
+2  NCMS000        PERRO    perro                                
+3  VMII3S0       LLAMAR  llamaba                          Pasado
+4  NP00000  P-A-N-C-H-O   Pancho                                
+
+Input:Una niña camina en el parque.
+
+Output:
+       tag    lemma    word expresion gender number      time
+0  NCFS000     NIÑO    niña              (F)                 
+1  VMIP3S0  CAMINAR  camina                          Presente
+2       SP       EN      en                                  
+3  NCMS000   PARQUE  parque                                  
+
+Input:Un niño camina en la plaza.
+
+Output:
+       tag    lemma    word expresion gender number      time
+0  NCMS000     NIÑO    niño                                  
+1  VMIP3S0  CAMINAR  camina                          Presente
+2       SP       EN      en                                  
+3  NCFS000    PLAZA   plaza                                  
+
+Input:Un hombre agarra frutas.
+
+Output:
+       tag    lemma    word expresion gender number      time
+0  NCMS000   HOMBRE  hombre                                  
+1  VMIP3S0  AGARRAR  agarra                          Presente
+2  NCFP000    FRUTO  frutas                                  
+
+Input:Unas niñas caminaban en la plaza.
+Output:
+       tag    lemma       word expresion gender number    time
+0  NCFP000     NIÑO      niñas              (F)   (x2)        
+1  VMII3P0  CAMINAR  caminaban                          Pasado
+2       SP       EN         en                                
+3  NCFS000    PLAZA      plaza                                
