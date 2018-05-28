@@ -24,7 +24,7 @@ Output:
        tag        lemma     word expresion gender number    time
 0  PP1CSN0           YO       Yo                                
 1  VMII3S0        TENER    tenía                          Pasado
-2  NCMS000        PERRO    perro                                
+2  NCMS000      ANIMAL+    perro                                
 3  VMII3S0       LLAMAR  llamaba                          Pasado
 4  NP00000  P-A-N-C-H-O   Pancho                                
 
@@ -49,10 +49,10 @@ Output:
 Input:Un hombre agarra frutas.
 
 Output:
-       tag    lemma    word expresion gender number      time
-0  NCMS000   HOMBRE  hombre                                  
-1  VMIP3S0  AGARRAR  agarra                          Presente
-2  NCFP000    FRUTO  frutas                                  
+       tag              lemma    word expresion gender number      time
+0  NCMS000             HOMBRE  hombre                                  
+1  VMIP3S0            AGARRAR  agarra                          Presente
+2  NCFP000  FRUITORVEGETABLE=  frutas                                  
 
 Input:Unas niñas caminaban en la plaza.
 Output:
